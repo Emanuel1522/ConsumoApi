@@ -1,6 +1,7 @@
 import "./Menu.css";
 import { Link } from "react-router-dom";
 export function Menu() {
+
   return(
   <>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -37,10 +38,10 @@ export function Menu() {
               </a>
             </li>
           </ul>
-          <span class="navbar-text">BARRA DE NAVEGACION</span>
+          <span class="navbar-text">Navbar text with an inline element</span>
         </div>
       </div>
     </nav>
   </>
-  );
+  )
 }

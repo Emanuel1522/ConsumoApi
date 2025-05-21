@@ -1,13 +1,13 @@
 import { Routes, Route } from "react-router-dom";
 import { Home } from "../../pages/Home/Home";
 import { Analitica } from "../../pages/Analitica/Analitica";
-import { Menu } from "../../components/Menu/Menu";
+import { Menu } from "../../components/common/Menu/Menu";
 import { Api } from "../../pages/Api/Api";
 
 export function Rutas() {
   return (
     <>
-      <Menu/>
+      <Menu></Menu>
       <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path="/Analitica" element={<Analitica/>}></Route>
